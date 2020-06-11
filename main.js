@@ -2,8 +2,17 @@
  * YOUR CODE BELOW! *
  ********************/
 
+const iGetTheJoke = true;
 
+const havingFun = true;
 
+const learning = true;
+
+const killingIt = havingFun && learning;
+
+function returnFalse(always) {
+  
+}
 
 
 /********************************************************************************************
