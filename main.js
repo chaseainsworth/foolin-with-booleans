@@ -11,9 +11,36 @@ const learning = true;
 const killingIt = havingFun && learning;
 
 function returnFalse(always) {
-  
+  return always = false;
 }
 
+function isOpposite(reverse) {
+  return !reverse;
+}
+
+function both(a, b) {
+  return a && b;
+}
+
+function either(c, d) {
+  return c || d;
+}
+
+function firstOnly(e, f) {
+  return e && !f;
+}
+
+function secondOnly(g, h) {
+  return !g && h;
+}
+
+function neither(i, j) {
+  return !i && !j;
+}
+
+function itsComplicated(k, l, m) {
+  return !k || l && m;
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
